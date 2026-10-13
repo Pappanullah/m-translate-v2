@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt und Angebot | Mohammad Jamil Muarrawi, Graz</title>
+<meta name="description" content="Kontakt zum Übersetzungsbüro in Graz: Telefon, E-Mail und Formular für ein unverbindliches Angebot.">
+<link rel="canonical" href="https://www.m-translate.at/kontakt">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#F1E9DA">
+<link rel="icon" href="assets/icons/favicon.ico" sizes="48x48">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/icons/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="assets/icons/site.webmanifest">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mohammad Jamil Muarrawi">
+<meta property="og:locale" content="de_AT">
+<meta property="og:title" content="Kontakt und Angebot | Mohammad Jamil Muarrawi, Graz">
+<meta property="og:description" content="Kontakt zum Übersetzungsbüro in Graz: Telefon, E-Mail und Formular für ein unverbindliches Angebot.">
+<meta property="og:url" content="https://www.m-translate.at/kontakt">
+<meta property="og:image" content="https://www.m-translate.at/assets/images/jamil-muarrawi-portrait.webp">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main" data-i18n="ui.skip">Zum Inhalt springen</a>
+<header class="site-header" id="site-header"></header>
+<main id="main">
+<section class="page-head"><div class="wrap"><h1 data-i18n="ct.h1">Kontakt</h1><p class="lead" data-i18n="ct.lead">Schreiben, anrufen oder nach Vereinbarung vorbeikommen.</p></div></section>
+<section class="sec"><div class="wrap contact">
+  <div><h2 data-i18n="ct.info">Kontaktdaten</h2><ul class="info" data-contact></ul></div>
+  <div>
+    <h2 data-i18n="ct.form">Nachricht schreiben</h2>
+    <form id="contact-form" class="form" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="">
+      <input type="hidden" name="subject" value="Neue Anfrage über m-translate.at">
+      <input type="hidden" name="from_name" value="m-translate.at Kontaktformular">
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div><label for="f-name" data-i18n="form.name">Name</label><input id="f-name" name="name" required autocomplete="name" data-i18n-attr="placeholder:form.name.ph" placeholder="Vor- und Nachname"></div>
+      <div><label for="f-email" data-i18n="form.email">E-Mail</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+      <div><label for="f-phone" data-i18n="form.phone">Telefon (optional)</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+      <div><label for="service" data-i18n="form.service">Anliegen</label><select id="service" name="service" required></select></div>
+      <div><label for="f-msg" data-i18n="form.msg">Nachricht</label><textarea id="f-msg" name="message" rows="6" required data-i18n-attr="placeholder:form.msg.ph" placeholder="Worum geht es? Dokumentart, Umfang und Sprachen helfen bei der Angebotserstellung."></textarea></div>
+      <div class="check"><input id="f-consent" name="consent" type="checkbox" value="Ja" required><label for="f-consent" data-i18n="form.consent">Ich habe die <a href='datenschutz.html'>Datenschutzerklärung</a> gelesen und bin mit der Verarbeitung meiner Angaben einverstanden.</label></div>
+      <button class="btn" type="submit" data-i18n="form.send">Nachricht senden</button>
+      <p id="form-status" class="status" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+</div></section>
+</main>
+<footer class="site-footer" id="site-footer"></footer>
+<script src="assets/js/config.js"></script>
+<script src="assets/lang/de.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

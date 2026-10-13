@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_vorlage.html
+
+Sitemap: https://www.m-translate.at/sitemap.xml
